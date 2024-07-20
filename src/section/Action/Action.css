@@ -1,0 +1,9 @@
+.action {
+    margin-top: 200px;
+    width: 1720px;
+    height: 367px;
+
+    background: linear-gradient(270deg, #5BA4FA 0%, #0788FF 100%), #D9D9D9;
+    border-radius: 25px;
+
+}

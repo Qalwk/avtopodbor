@@ -1,0 +1,47 @@
+.support {
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.support-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.support-rect {
+    width: 1091px;
+    height: 635px;
+    background: linear-gradient(270deg, #5BA4FA 0%, #0788FF 100%), #FFFFFF;
+    border-radius: 25px;
+}
+
+.support-wrapper-info {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    z-index: 10;
+}
+
+.support-rect {
+    position: relative;
+}
+
+.support-img {
+    position: absolute;
+    z-index: 10;
+    width: 1273px;
+    height: 635px;
+    right: -85px;
+    top: 0px;
+}
+
+.support-img-line {
+    position: absolute;
+    width: 1155px;
+    height: 794px;
+    mix-blend-mode: overlay;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}

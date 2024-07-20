@@ -1,0 +1,13 @@
+.risk {
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    overflow-x:hidden;
+}
+
+.risk-wrapper {
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+}

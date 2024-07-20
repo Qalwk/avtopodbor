@@ -1,0 +1,48 @@
+.mission{
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    overflow-x:hidden;
+}
+
+.mission-top {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.mission-wrapper {
+    width: 100%;
+    height: 367px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: start;
+    justify-content: space-between;
+    padding-left: 70px;
+    padding-right: 244px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background: linear-gradient(270deg, #5BA4FA 0%, #0788FF 100%), #FFFFFF;
+}
+
+.mission-rect {
+    width: 1091px;
+    height: 635px;
+    background: linear-gradient(270deg, #5BA4FA 0%, #0788FF 100%), #FFFFFF;
+    border-radius: 25px;
+}
+
+.mission-wrapper-line {
+    position: relative;
+}
+
+.mission-line {
+    position: absolute;
+    width: 810px;
+    height: 509.24px;
+    top: -520px;
+    left: 1080px;
+    mix-blend-mode: overlay;
+}

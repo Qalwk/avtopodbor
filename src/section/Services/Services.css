@@ -1,0 +1,14 @@
+.services {
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    overflow-x:hidden;
+}
+
+.services-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}

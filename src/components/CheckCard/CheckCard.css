@@ -1,0 +1,7 @@
+.checkcard {
+    width: 850px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+}

@@ -1,0 +1,12 @@
+.riskcard {
+    width: 564px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.riskcard-icon {
+    width: 125px;
+    height: 125px;
+}

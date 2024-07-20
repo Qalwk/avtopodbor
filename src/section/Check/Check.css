@@ -1,0 +1,13 @@
+.check {
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    text-align: left;
+}
+
+.check-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 45px;
+}
