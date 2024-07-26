@@ -1,63 +1,181 @@
 .header {
-    background-color: aliceblue;
-    width: 1720px;
-    height: 100px;
-    box-sizing: border-box;
-    position: fixed;
-    display: flex;
-    background: #FFFFFF;
-    border: 2px solid #2893FE;
-    border-radius: 50px;
-    align-items: center;
-    justify-content: space-between;
-    padding-left: 70px;
-    padding-right: 70px;
-    z-index: 100;
+  max-width: 1720px;
+  width: 100%;
+  height: fit-content;
+  box-sizing: border-box;
+  padding: 12px 70px;
+
+  left: 50%;
+  transform: translateX(-50%);
+
+  position: fixed;
+  z-index: 100;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background: #ffffff;
+  border: 2px solid #2893fe;
+  border-radius: 50px;
+}
+
+.header-button {
+  font-family: "Inter", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 26.63px;
+  text-align: center;
+
+  padding: 22px 58px;
+  border-radius: 50px;
+  border: none;
+  background: linear-gradient(270deg, #5ba4fa 0%, #0788ff 100%);
 }
 
 .navbar-menu-list {
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
-    gap: 65px;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  gap: 65px;
 }
 
 .navbar-menu-links {
-    color: #000000;
-    text-decoration: none;
-    font-size: 26px;
-    font-weight: 400;
+  color: #000000;
+  text-decoration: none;
+  font-size: 26px;
+  font-weight: 400;
 }
 
 .header-info {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 65px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 65px;
 }
 
 .header-call-wrapper {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
 }
 
 .navbar-action-wrapper {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 25px;
 }
 
 .call-wrapper-num {
-    color: #000000;
-    text-decoration: none;
-    font-size: 26px;
-    font-weight: normal;
-    background: linear-gradient(270deg, #5BA4FA 0%, #0788FF 100%), #000000;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+  color: #000000;
+  text-decoration: none;
+  font-size: 26px;
+  font-weight: normal;
+  background: linear-gradient(270deg, #5ba4fa 0%, #0788ff 100%), #000000;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
+@media screen and (max-width: 1750px) {
+  .header {
+    left: 100px;
+    right: 100px;
+    transform: translateX(0);
+    max-width: calc(100% - 200px);
+  }
+  .header-logo {
+    width: 270px;
+    height: 75px;
+  }
+  .header-button {
+    font-size: 20px;
+    padding: 16px 48px;
+  }
+
+  .navbar-menu-list,
+  .header-info {
+    gap: 30px;
+  }
+  .header-call-wrapper {
+    gap: 5px;
+  }
+  .navbar-action-wrapper {
+    gap: 15px;
+  }
+  .call-wrapper-num,
+  .navbar-menu-links {
+    font-size: 18px;
+    text-wrap: nowrap;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .header {
+    padding: 12px 50px;
+  }
+  .header-logo {
+    width: 200px;
+    height: 56px;
+  }
+  .header-button {
+    font-size: 20px;
+    padding: 16px 48px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .header {
+    padding: 12px 20px;
+    max-width: calc(100% - 160px);
+    left: 80px;
+    right: 80px;
+  }
+  .call-wrapper-num {
+    font-size: 12px;
+  }
+  .navbar-menu {
+    display: none;
+  }
+  .header-button {
+    font-size: 18px;
+    padding: 14px 38px;
+  }
+  .header-num-icon {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .header {
+    max-width: calc(100% - 70px);
+    left: 35px;
+    right: 35px;
+  }
+  .navbar-action-wrapper {
+    gap: 10px;
+  }
+  .header-button {
+    width: 25px;
+    height: 25px;
+    border-radius: 10px;
+    padding: 0;
+  }
+  .header-button span {
+    display: none;
+  }
+  .call-wrapper-num {
+    font-size: 8px;
+  }
+  .header-num-icon {
+    width: 12px;
+    height: 12px;
+  }
+  .header-logo {
+    width: 125px;
+    height: 35px;
+  }
+}

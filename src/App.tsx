@@ -12,18 +12,18 @@ import Support from './section/Support/Support'
 function App() {
 
   return (
-    <>
+    <main className='container'>
       <Header />
       <Hero />
       <Plus />
       <Support />
       <Mission />
-      <Services />
+      {/* <Services /> */}
       <Check />
-      <Risk />
+      {/* <Risk />
       
-      <Action />
-    </>
+      <Action /> */}
+    </main>
   )
 }
 

@@ -4,3 +4,35 @@
     gap: 40px;
     align-items: center;
 }
+
+@media screen and (max-width: 1280px) {
+    .SupportCard {
+        gap: 25px;
+        max-width: 45%;
+    }
+    .SupportCard h3 {
+        font-size: 28px;
+        line-height: 34px;
+    }
+    .SupportCard div {
+        width: 80px;
+        height: 80px;
+    }
+    .SupportCard div img {
+        width: 45px;
+        height: 45px;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .SupportCard {
+        max-width: 380px;
+        width: 100% !important;
+        gap: 15px;
+    }
+    .SupportCard h3 {
+        max-width: 280px;
+        font-size: 24px;
+        line-height: 29px;
+    }
+}

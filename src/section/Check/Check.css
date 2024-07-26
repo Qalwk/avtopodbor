@@ -1,13 +1,29 @@
 .check {
-    margin-top: 120px;
-    display: flex;
-    flex-direction: column;
-    gap: 80px;
-    text-align: left;
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  text-align: left;
 }
 
 .check-cards {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 45px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 45px;
+}
+
+@media screen and (max-width: 1440px) {
+  .check-cards {
+    gap: 35px 25px;
+  }
+  .check {
+    margin-top: 60px;
+    gap: 40px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+    .check-cards {
+        grid-template-columns: repeat(1, 1fr);
+      }
 }

@@ -1,7 +1,31 @@
 .checkcard {
-    width: 850px;
+    /* width: 850px; */
     display: flex;
     flex-direction: row;
     gap: 30px;
     align-items: center;
+}
+
+@media screen and (max-width: 1440px){
+    .checkcard h4, .btn-text-blue {
+        font-size: 20px !important;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 740px){
+    .checkcard-img {
+        width: 90px;
+        height: 90px;
+    }
+    .checkcard h4, .btn-text-blue {
+        font-size: 18px !important;
+        line-height: 22px;
+    }
+}
+@media screen and (max-width: 375px){
+    .checkcard-img {
+        width: 65px;
+        height: 65px;
+    }
 }
