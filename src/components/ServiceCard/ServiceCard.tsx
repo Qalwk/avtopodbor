@@ -27,7 +27,8 @@ const ServiceCard:React.FC<ServiceCardProps> = ({variant}) => {
       </div>
       <div className="serviceCard-wrapper-down">
         <h5 className="btn-text-blue">{SERVICES_CARDS[variant].price}</h5>
-        <Button text={SERVICES_CARDS[variant].button} width="560px" height="72px" radius="25px" />
+        <button className="serviceCard-button">Подробнее</button>
+        {/* <Button text={SERVICES_CARDS[variant].button} width="560px" height="72px" radius="25px" /> */}
       </div>
     </div>
   )
