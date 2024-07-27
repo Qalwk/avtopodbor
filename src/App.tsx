@@ -18,7 +18,7 @@ function App() {
       <Plus />
       <Support />
       <Mission />
-      {/* <Services /> */}
+      <Services />
       <Check />
       {/* <Risk />
       
