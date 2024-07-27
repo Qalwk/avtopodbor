@@ -87,7 +87,7 @@
         height: 700px;
     }
     .serviceCard-wrapper > img {
-        height: 200px;
+        height: 300px;
     }
     .serviceCard-cards {
         flex-direction: row;
@@ -95,7 +95,8 @@
         gap: 15px 0;
     }
     .serviceCard-description {
-        max-width: 49%;
+        max-width: 50%;
+        width: 100%;
     }
 }
 @media screen and (max-width: 700px) {
