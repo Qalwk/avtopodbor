@@ -10,4 +10,26 @@
     display: flex;
     align-items: top;
     justify-content: space-between;
+    gap: 70px;
+}
+
+@media screen and (max-width: 1440px){
+    .risk-wrapper {
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 1280px){
+    .risk-wrapper {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .risk-divider {
+        display: none;
+    }
+}
+@media screen and (max-width: 740px){
+    .risk-wrapper {
+        gap: 30px;
+    }
 }

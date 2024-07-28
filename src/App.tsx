@@ -8,6 +8,7 @@ import Plus from './section/Plus/Plus'
 import Risk from './section/Risk/Risk'
 import Services from './section/Services/Services'
 import Support from './section/Support/Support'
+import WhyUs from './section/WhyUs/WhyUs'
 
 function App() {
 
@@ -20,9 +21,10 @@ function App() {
       <Mission />
       <Services />
       <Check />
-      {/* <Risk />
+      <Risk />
+      <WhyUs />
       
-      <Action /> */}
+      {/* <Action /> */}
     </main>
   )
 }

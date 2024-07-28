@@ -8,7 +8,9 @@ const Risk = () => {
         <h2 style={{width: "850px", textAlign: "left"}}>{RISK_TITLE}</h2>
         <div className="risk-wrapper">
             <RiskCard variant="card1" />
+            <img className="risk-divider" src="/img/risk/divider-1.svg" alt="divider" />
             <RiskCard variant="card2" />
+            <img className="risk-divider" src="/img/risk/divider-2.svg" alt="divider" />
             <RiskCard variant="card3" />
         </div>
     </div>
