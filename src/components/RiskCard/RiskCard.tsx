@@ -10,8 +10,8 @@ const RiskCard:React.FC<RiskCardsProps> = ({ variant }) => {
   return (
     <div className="riskcard">
       <img className="riskcard-icon" src={RISK_CARD[variant].icon} />
-      <h3 style={{fontSize: "42px", lineHeight: "51px"}} className="btn-text-blue">{RISK_CARD[variant].text}</h3>
-      <h4 style={{width: "392px"}}>{RISK_CARD[variant].description}</h4>
+      <h3 className="riskcard-title btn-text-blue">{RISK_CARD[variant].text}</h3>
+      <h4 className="riskcard-desc">{RISK_CARD[variant].description}</h4>
     </div>
   )
 }

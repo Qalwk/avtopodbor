@@ -1,4 +1,4 @@
-import Button from "../Button/Button"
+// import Button from "../Button/Button"
 import "./ServiceCard.css"
 import { SERVICES_CARDS } from "../../constant.ts"
 import { SERVICES_TITLE } from "../../constant.ts"

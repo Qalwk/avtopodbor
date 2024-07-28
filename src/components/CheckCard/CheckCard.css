@@ -7,7 +7,7 @@
 }
 
 @media screen and (max-width: 1440px){
-    .checkcard h4, .btn-text-blue {
+    .checkcard h4, .checkcard .btn-text-blue {
         font-size: 20px !important;
         line-height: 24px;
     }
@@ -18,7 +18,7 @@
         width: 90px;
         height: 90px;
     }
-    .checkcard h4, .btn-text-blue {
+    .checkcard h4, .checkcard .btn-text-blue {
         font-size: 18px !important;
         line-height: 22px;
     }

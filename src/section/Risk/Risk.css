@@ -6,8 +6,47 @@
     overflow-x:hidden;
 }
 
+.risk-title {
+    text-align: left;
+}
+
 .risk-wrapper {
     display: flex;
     align-items: top;
     justify-content: space-between;
+    gap: 70px;
+}
+
+@media screen and (max-width: 1440px){
+    .risk-wrapper {
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 1280px){
+    .risk-title {
+        font-size: 35px;
+        line-height: 42px;
+    }
+    .risk-wrapper {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .risk-divider {
+        display: none;
+    }
+}
+@media screen and (max-width: 740px){
+    .risk {
+        margin-top: 40px;
+        gap: 25px;
+    }
+    .risk-title {
+        text-align: center;
+        font-size: 32px;
+        line-height: 38px;
+    }
+    .risk-wrapper {
+        gap: 30px;
+    }
 }

@@ -6,7 +6,51 @@
     gap: 40px;
 }
 
+.riskcard-title {
+    font-size: 42px;
+    line-height: 51px;
+}
+.riskcard-desc {
+    font-weight: 500;
+}
+
+@media screen and (max-width: 1440px){
+    .riskcard-title {
+        font-size: 32px;
+        line-height: 38px;
+    }
+    .riskcard-desc {
+        font-size: 24px;
+        line-height: 29px;
+    }
+}
+
 .riskcard-icon {
     width: 125px;
     height: 125px;
+}
+
+@media screen and (max-width: 1280px){
+    .riskcard {
+        max-width: 33%;
+        width: 100%;
+        gap: 20px;
+    }
+    .riskcard-title {
+        font-size: 28px;
+        line-height: 34px;
+    }
+    .riskcard-desc {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .riskcard-icon {
+        width: 80px;
+        height: 80px;
+    }
+}
+@media screen and (max-width: 740px){
+    .riskcard {
+        max-width: none;
+    }
 }
