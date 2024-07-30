@@ -1,9 +1,76 @@
 .action {
-    margin-top: 200px;
-    width: 1720px;
-    height: 367px;
+  margin-top: 120px;
+  text-align: left;
+  height: fit-content;
+}
 
-    background: linear-gradient(270deg, #5BA4FA 0%, #0788FF 100%), #D9D9D9;
-    border-radius: 25px;
+.action-container {
+  margin-top: 80px;
+  width: 100%;
+  background: linear-gradient(270deg, #5ba4fa 0%, #0788ff 100%), #d9d9d9;
+  border-radius: 25px;
 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  padding: 100px 70px;
+}
+
+.action-text {
+  max-width: 50%;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 38px;
+  color: #fff;
+}
+@media screen and (max-width: 1440px) {
+  .action-container {
+    padding: 90px 50px;
+  }
+  .action-text {
+    font-size: 24px;
+    line-height: 29px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .action {
+    margin-top: 80px;
+  }
+  .action-container {
+    margin-top: 40px;
+    padding: 40px;
+    flex-direction: column;
+  }
+  .action-title {
+    font-size: 45px;
+    line-height: 54px;
+  }
+  .action-text {
+    max-width: none;
+    text-align: center;
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .action {
+    margin-top: 40px;
+  }
+  .action-container {
+    margin-top: 25px;
+    padding: 30px;
+    gap: 25px;
+  }
+  .action-title {
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+  }
+  .action-text {
+    font-size: 18px;
+    line-height: 22px;
+  }
 }

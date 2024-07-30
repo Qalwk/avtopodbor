@@ -18,7 +18,7 @@ const guaranteeItems = [
 const Guarantee = () => {
   return (
     <div className="guarantee">
-      <h2 className="guarantee-title">Почему стоит обратиться к нам</h2>
+      <h2 className="guarantee-title">Гарантия вашей уверенности</h2>
       <div className="guarantee-wrapper">
         {guaranteeItems.map((item) => (
           <div className="guarantee-item">
@@ -27,6 +27,9 @@ const Guarantee = () => {
           </div>
         ))}
       </div>
+      {/* <div className="guarantee-bg-1" />
+      <div className="guarantee-bg-2" />
+      <div className="guarantee-bg-3" /> */}
     </div>
   );
 };

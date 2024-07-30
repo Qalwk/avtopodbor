@@ -1,6 +1,6 @@
 import './App.css'
 import Header from './components/Header/Header'
-// import Action from './section/Action/Action'
+import Action from './section/Action/Action'
 import Check from './section/Check/Check'
 import Guarantee from './section/Guarantee/Guarantee'
 import Hero from './section/Hero/Hero'
@@ -26,7 +26,7 @@ function App() {
       <WhyUs />
       <Guarantee />
       
-      {/* <Action /> */}
+      <Action />
     </main>
   )
 }

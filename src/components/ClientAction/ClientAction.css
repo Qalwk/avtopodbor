@@ -1,0 +1,91 @@
+.form-container {
+  max-width: 740px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.bottom-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.input-name,
+.input-tel {
+  width: 100%;
+  padding: 22px;
+  border-radius: 50px;
+  background: #ffffff;
+  outline: none;
+  border: none;
+
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #0788FF;
+}
+
+.input-name::placeholder,
+.input-tel::placeholder {
+  color: #5ba4fa;
+  opacity: 0.8;
+}
+
+.form-submit {
+  padding: 20px 40px;
+  border: none;
+  border-radius: 51px;
+
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 31.47px;
+  text-align: center;
+  color: #0788FF;
+}
+
+@media screen and (max-width: 1440px) {
+  .bottom-wrapper {
+    gap: 25px;
+  }
+  .input-name,
+  .input-tel {
+    padding: 17px 20px;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .form-submit {
+    padding: 14px 40px;
+    font-size: 22px;
+    line-height: 26px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .form-container {
+    max-width: none;
+  }
+  .bottom-wrapper {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .form-container,
+  .bottom-wrapper {
+    gap: 15px;
+  }
+  .input-name,
+  .input-tel,
+  .form-submit {
+    padding: 9px 20px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .form-submit {
+    padding: 19px 63px;
+  }
+}
