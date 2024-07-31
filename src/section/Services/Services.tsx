@@ -26,7 +26,7 @@ const Services = () => {
     customPaging: () => <div className="services-sliderDots" />,
   };
   return (
-    <div className="services">
+    <div className="services" id="uslugi">
       <h2 className="services-title" style={{ width: "fit-cotnent", textAlign: "left" }}>{SERVICES_1TITLE}</h2>
       <div className="services-wrapper">
         {serviceCards.map((card, index) => (

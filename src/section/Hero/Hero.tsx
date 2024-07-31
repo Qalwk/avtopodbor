@@ -12,7 +12,7 @@ const Hero = () => {
         <h5 className="hero-desc" style={{width:"715px", color: "#ffffff"}}>
             {HERO_INFO.description}
         </h5>
-        <button className="hero-button">{HERO_INFO.button}</button>
+        <a href="#contact" className="hero-button">{HERO_INFO.button}</a>
         {/* <Button mode={false} width="337px" height="101px" text={HERO_INFO.button} radius="25px"/> */}
         <img src="./img/hero-vector.svg" className="hero-line"/>
       </div>

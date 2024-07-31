@@ -3,7 +3,7 @@ import { MISSION_INFO } from "../../constant"
 
 const Mission = () => {
   return (
-    <div className="mission">
+    <div className="mission" id="about">
       <div className="mission-top">
         <h2 className="mission-title" style={{width: "800px", textAlign: "left"}}>
           {MISSION_INFO.title}

@@ -43,7 +43,14 @@
     line-height: 32px;
     color: #0788FF;
     border: none;
+    z-index: 10;
+    transition: opacity 0.2s ease-in-out;
 }
+.hero-button:hover {
+    color: #0788FF;
+    opacity: 0.8;
+}
+
 
 @media screen and (max-width: 1440px) {
     .hero-title {
@@ -151,6 +158,7 @@
     top: 0;
     width: 100%;
     height: 100%;
+    z-index: 0;
     /* width: 1142.5px;
     height: 808.23px;
     right: -19.5px;

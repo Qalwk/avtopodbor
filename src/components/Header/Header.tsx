@@ -26,7 +26,7 @@ const Header = () => {
   ];
 
   return (
-    <div className="header">
+    <header className="header">
       <img src="./img/Logo.svg" className="header-logo"></img>
       <div className="header-info">
         <div className="navbar-menu">
@@ -45,15 +45,15 @@ const Header = () => {
           </ul>
         </div>
         <div className="navbar-action-wrapper">
-          <div className="header-call-wrapper">
+          <a href="tel:+7(993)60-60-800" className="header-call-wrapper">
             <img src="./img/Call.svg" className="header-num-icon" />
             <span className="call-wrapper-num">+7(993)60-60-800</span>
-          </div>
-          <button className="header-button"><span>Связаться</span></button>
+          </a>
+          <a href="#contact" className="header-button">Связаться</a>
           {/* <Button width="fit-content" height="72px" text="Связаться" radius="50px" /> */}
         </div>
       </div>
-    </div>
+    </header>
   );
 };
 
