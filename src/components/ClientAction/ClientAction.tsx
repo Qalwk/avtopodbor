@@ -4,10 +4,10 @@ import { useState } from "react";
 import "./ClientAction.css";
 
 interface ContactFormProps {
-  onSubmit: (data: { client_name: string; client_phone: string }) => void;
+  onSubmit: (data: { name: string; phone: string }) => void;
 }
 
-const ContactForm: React.FC<ContactFormProps> = ({ onSubmit }) => {
+const ContactForm: React.FC<ContactFormProps> = () => {
   const [client_name, setName] = useState("");
   const [client_phone, setPhone] = useState("");
 

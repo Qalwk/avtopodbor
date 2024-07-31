@@ -1,0 +1,128 @@
+.footer {
+  background: linear-gradient(270deg, #5ba4fa 0%, #0788ff 100%);
+  margin-top: 175px;
+  padding: 70px 0;
+}
+
+.footer-container {
+  margin: 0 auto;
+  max-width: 1720px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-info {
+  margin-right: 125px;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 125px;
+}
+
+.footer-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 31.47px;
+  color: #fff;
+}
+
+.footer-button {
+  padding: 20px 65px;
+  border-radius: 51px;
+  background: #fff;
+  color: #0788ff;
+
+  border: none;
+
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 31.47px;
+  text-align: center;
+}
+
+@media screen and (max-width: 1750px) {
+  .footer-container {
+    max-width: none;
+  }
+  .footer {
+    padding: 50px 100px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .footer-info {
+    margin-right: 35px;
+    gap: 35px;
+  }
+  .footer-item {
+    gap: 5px;
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .footer-button {
+    font-size: 22px;
+    line-height: 26px;
+    padding: 14px 43px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .footer {
+    margin-top: 125px;
+    padding: 50px 100px;
+  }
+  .footer-info {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .footer-item {
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .footer-item img {
+    width: 20px;
+    height: 20px;
+  }
+  .footer-button {
+    font-size: 18px;
+    line-height: 22px;
+    padding: 14px 38px;
+  }
+  .footer-logo {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .footer {
+    margin-top: 80px;
+    padding: 25px 35px;
+  }
+  .footer-container {
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-evenly;
+  }
+  .footer-info {
+    margin: 0;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-direction: row;
+    order: 2;
+  }
+  .footer-button {
+    font-size: 14px;
+    line-height: 16px;
+    padding: 9px 33px;
+  }
+  .footer-logo {
+    width: 125px;
+    height: 35px;
+  }
+}

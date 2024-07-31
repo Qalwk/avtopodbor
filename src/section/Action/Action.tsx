@@ -8,9 +8,10 @@ const Action = () => {
   };
 
   return (
-    <div className="action">
+    <div className="action" id="contact">
       <h2 className="action-title">Оставить заявку</h2>
       <div className="action-container">
+        <div className="action-bg" />
         <p className="action-text">
           Найдем вам идеальное предложение на рынке, которое полностью
           соответствует вашим требованиям и обладает безупречной юридической и
