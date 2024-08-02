@@ -6,10 +6,6 @@
     overflow-x:hidden;
 }
 
-.risk-title {
-    text-align: left;
-}
-
 .risk-wrapper {
     display: flex;
     align-items: top;
@@ -24,10 +20,6 @@
 }
 
 @media screen and (max-width: 1280px){
-    .risk-title {
-        font-size: 35px;
-        line-height: 42px;
-    }
     .risk-wrapper {
         flex-wrap: wrap;
         justify-content: space-around;
@@ -40,11 +32,6 @@
     .risk {
         margin-top: 40px;
         gap: 25px;
-    }
-    .risk-title {
-        text-align: center;
-        font-size: 32px;
-        line-height: 38px;
     }
     .risk-wrapper {
         gap: 30px;

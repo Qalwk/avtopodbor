@@ -5,7 +5,7 @@ const Mission = () => {
   return (
     <div className="mission" id="about">
       <div className="mission-top">
-        <h2 className="mission-title" style={{width: "800px", textAlign: "left"}}>
+        <h2>
           {MISSION_INFO.title}
         </h2>
         <div className="mission-wrapper">

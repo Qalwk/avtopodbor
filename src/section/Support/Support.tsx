@@ -5,7 +5,7 @@ import { SUPPORT_INFO } from "../../constant"
 const Support = () => {
   return (
     <div className="support">
-        <h2 className="support-title" style={{width: "800px", textAlign: "left"}}>
+        <h2>
           {SUPPORT_INFO.title}
         </h2>
         <div className="support-wrapper">

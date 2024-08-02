@@ -5,9 +5,9 @@ import CheckCard from "../../components/CheckCard/CheckCard.tsx"
 const Check = () => {
   return (
     <div className="check">
-        <h3>
+        <h2>
             {CHECK_TITLE}
-        </h3>
+        </h2>
         <div className="check-cards">
             <CheckCard variant="card1" />
             <CheckCard variant="card5" />

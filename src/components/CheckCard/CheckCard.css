@@ -13,19 +13,32 @@
     }
 }
 
-@media screen and (max-width: 740px){
-    .checkcard-img {
-        width: 90px;
-        height: 90px;
+@media screen and (max-width: 1280px) {
+    .checkcard {
+        align-items: start;
+        gap: 15px;
     }
+    .checkcard div {
+        width: 80px;
+        height: 80px;
+    }
+    .checkcard div img {
+        width: 45px;
+        height: 45px;
+    }
+}
+
+@media screen and (max-width: 740px){
     .checkcard h4, .checkcard .btn-text-blue {
         font-size: 18px !important;
         line-height: 22px;
     }
-}
-@media screen and (max-width: 375px){
-    .checkcard-img {
+    .checkcard div {
         width: 65px;
         height: 65px;
+    }
+    .checkcard div img {
+        width: 35px;
+        height: 35px;
     }
 }

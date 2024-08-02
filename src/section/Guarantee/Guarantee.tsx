@@ -18,7 +18,7 @@ const guaranteeItems = [
 const Guarantee = () => {
   return (
     <div className="guarantee" id="garant">
-      <h2 className="guarantee-title">Гарантия вашей уверенности</h2>
+      <h2>Гарантия вашей уверенности</h2>
       <div className="guarantee-wrapper">
         {guaranteeItems.map((item) => (
           <div className="guarantee-item">

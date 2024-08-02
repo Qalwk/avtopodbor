@@ -1,6 +1,7 @@
 import "./CheckCard.css";
 import { CHECK_CARDS } from "../../constant.ts";
 import { CheckCardsType } from "../../constant.ts";
+import IconRect from "../IconRect/IconRect.tsx";
 
 interface CheckCardsProps {
   variant: CheckCardsType;
@@ -9,8 +10,9 @@ interface CheckCardsProps {
 const CheckCard: React.FC<CheckCardsProps> = ({ variant }) => {
   return (
     <div className="checkcard">
-      <img className="checkcard-img" src={CHECK_CARDS[variant].icon} />
-      <h4 style={{}}>
+      {/* <img className="checkcard-img" src={CHECK_CARDS[variant].icon} /> */}
+      <IconRect icon={CHECK_CARDS[variant].icon} />
+      <h4>
         <span className="btn-text-blue" style={{ fontSize: "32px" }}>
           {CHECK_CARDS[variant].text}
         </span>

@@ -9,7 +9,7 @@ const Hero = () => {
         <h1 className="hero-title" style={{width:"715px"}} >
             {HERO_INFO.title}
         </h1>
-        <h5 className="hero-desc" style={{width:"715px", color: "#ffffff"}}>
+        <h5 style={{width:"715px", color: "#ffffff"}}>
             {HERO_INFO.description}
         </h5>
         <a href="#contact" className="hero-button">{HERO_INFO.button}</a>

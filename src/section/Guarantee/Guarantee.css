@@ -34,13 +34,6 @@
   right: 0;
 }
 
-.guarantee-title {
-  font-size: 65px;
-  font-weight: 500;
-  line-height: 78px;
-  color: #000;
-}
-
 .guarantee-wrapper {
   height: fit-content;
   display: flex;
@@ -82,10 +75,6 @@
     margin-top: 80px;
     gap: 60px;
   }
-  .guarantee-title {
-    font-size: 45px;
-    line-height: 54px;
-  }
   .guarantee-item {
     gap: 35px;
     padding: 60px 10px;
@@ -114,11 +103,6 @@
   .guarantee {
     margin-top: 40px;
     gap: 40px;
-  }
-  .guarantee-title {
-    font-size: 32px;
-    line-height: 38px;
-    text-align: center;
   }
   .guarantee-wrapper {
     flex-direction: column;
