@@ -70,11 +70,6 @@
         margin-top: 60px;
         gap: 40px;
     }
-    .support-title {
-        width: fit-content !important;
-        font-size: 35px;
-        line-height: 42px;
-    }
     .support-wrapper-info {
         gap: 20px;
     }
@@ -88,9 +83,6 @@
     }
     .support-rect {
         height: 150px;
-    }
-    .support-title {
-        text-align: center !important;
     }
 }
 

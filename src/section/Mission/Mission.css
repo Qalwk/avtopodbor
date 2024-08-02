@@ -32,11 +32,6 @@
     .mission-top {
         gap: 40px;
     }
-    .mission-title {
-        max-width: 100%;
-        font-size: 45px;
-        line-height: 54px;
-    }
     .mission-wrapper {
         padding: 50px;
     }
@@ -47,9 +42,6 @@
 }
 
 @media screen and (max-width: 600px) {
-    .mission-title {
-        text-align: center !important;
-    }
     .mission-text {
         font-size: 18px;
         line-height: 21px;

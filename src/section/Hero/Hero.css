@@ -56,12 +56,6 @@
     .hero-title {
         font-size: 50px;
     }
-
-    .hero-desc {
-        font-size: 22px;
-        max-width: 580px;
-    }
-
     .hero-img {
         background-position: 20%;
     }
@@ -80,12 +74,6 @@
     .hero-title {
         font-size: 45px;
         line-height: 54px;
-        max-width: 100%;
-        padding-right: 36px;
-    }
-
-    .hero-desc {
-        font-size: 20px;
         max-width: 100%;
         padding-right: 36px;
     }
@@ -119,36 +107,10 @@
         max-width: 100%;
         padding: 0;
     }
-
-    .hero-desc {
-        font-size: 18px;
-        max-width: 100%;
-        padding: 0;
-    }
-
     .hero-button {
         font-size: 18px;
         line-height: 22px;
         padding: 25px 65px;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .hero-info {
-        margin-top: 80px;
-    }
-    .hero-title {
-        font-size: 32px;
-        line-height: 38px;
-    }
-    .hero-desc {
-        font-size: 14px;
-        line-height: 17px;
-    }
-    .hero-button {
-        font-size: 14px;
-        line-height: 17px;
-        padding: 19px 44px;
     }
 }
 
@@ -167,3 +129,20 @@
     mix-blend-mode: overlay;
 }
 
+@media screen and (max-width: 600px) {
+    .hero-info {
+        margin-top: 80px;
+    }
+    .hero-title {
+        font-size: 32px;
+        line-height: 38px;
+    }
+    .hero-button {
+        font-size: 14px;
+        line-height: 17px;
+        padding: 19px 44px;
+    }
+    .hero-line {
+        display: none;
+    }
+}

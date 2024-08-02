@@ -22,18 +22,6 @@
     .services-wrapper {
         display: none;
     }
-    .services-title {
-        font-size: 35px;
-        line-height: 42px;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .services-title {
-        font-size: 32px;
-        line-height: 38px;
-        text-align: center;
-    }
 }
 
 .services-sliderDots {

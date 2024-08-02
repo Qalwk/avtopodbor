@@ -5,7 +5,7 @@ import RiskCard from "../../components/RiskCard/RiskCard.tsx"
 const Risk = () => {
   return (
     <div className="risk">
-        <h2 className="risk-title">{RISK_TITLE}</h2>
+        <h2>{RISK_TITLE}</h2>
         <div className="risk-wrapper">
             <RiskCard variant="card1" />
             <img className="risk-divider" src="/img/risk/divider-1.svg" alt="divider" />

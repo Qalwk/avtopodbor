@@ -9,7 +9,7 @@ const Action = () => {
 
   return (
     <div className="action" id="contact">
-      <h2 className="action-title">Оставить заявку</h2>
+      <h2>Оставить заявку</h2>
       <div className="action-container">
         <div className="action-bg" />
         <p className="action-text">
