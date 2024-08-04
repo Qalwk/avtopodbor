@@ -35,14 +35,21 @@ const Services = () => {
       <h2>{SERVICES_1TITLE}</h2>
       <div className="services-wrapper">
         {serviceCards.map((card, index) => (
-          <ServiceCard key={index} variant={card} setOpenCard={setOpenCard} openCard={openCard} />
+          <ServiceCard
+            key={index}
+            variant={card}
+            setOpenCard={setOpenCard}
+            openCard={openCard}
+          />
         ))}
       </div>
       <div className="slider-container">
-        {openCard && (<ServiceModal variant={openCard} onClose={setOpenCard} />)}
+        {openCard && <ServiceModal variant={openCard} onClose={setOpenCard} />}
         <Slider {...settings}>
           {serviceCards.map((card, index) => (
-            <ServiceCard key={index} variant={card} setOpenCard={setOpenCard} />
+            <div key={index} className="slider-item">
+              <ServiceCard variant={card} setOpenCard={setOpenCard} />
+            </div>
           ))}
         </Slider>
       </div>
