@@ -19,6 +19,7 @@
   display: flex;
   align-items: center;
   gap: 125px;
+  text-wrap: nowrap;
 }
 
 .footer-item {
@@ -49,6 +50,11 @@
 @media screen and (max-width: 1750px) {
   .footer-container {
     max-width: none;
+    gap: 40px;
+  }
+  .footer-info {
+    gap: 40px;
+    margin: 0;
   }
   .footer {
     padding: 50px 100px;
