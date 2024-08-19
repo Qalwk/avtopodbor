@@ -15,7 +15,7 @@ const Footer = () => {
             +7(993)60-60-800
           </a>
         </div>
-        <button className="footer-button">Связаться</button>
+        {/* <button className="footer-button">Связаться</button> */}
       </div>
     </footer>
   );

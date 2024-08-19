@@ -51,9 +51,14 @@
 }
 
 .serviceModal-wrapper {
+  overflow-y: auto;
   display: flex;
   flex-direction: column;
   gap: 10px;
+  padding-left: 20px;
+}
+.serviceModal-wrapper::-webkit-scrollbar {
+  width: 0;
 }
 
 @media screen and (max-width: 760px) {
@@ -75,12 +80,7 @@
     line-height: 38px;
   }
   .serviceModal-wrapper {
-    padding-left: 20px;
-    overflow-y: scroll;
     max-height: 60vh;
-  }
-  .serviceModal-wrapper::-webkit-scrollbar {
-    width: 0;
   }
 }
 
